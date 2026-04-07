@@ -104,30 +104,20 @@ uid=0(root) gid=0(root)
 ---
 
 ## 📸 Screenshots
-
-### Nmap Scan Results
+The following screenshots demonstrate the enumeration and exploitation process.
+### Nmap Scan
 
 ![Nmap Scan](nmap-scan.png)
 
+### FTP Connection
+![FTP Connection](ftp-connection.png)
+
 ### FTP Exploit Attempt
-
-![FTP Attempt](ftp-attempt.png)
-
-### Exploitation
-
-![Exploit Run](exploit-run.png)
-
-### Root Access
-
-![Root Access](root-access.png)
-
----
+![FTP Exploit](ftp-exploit-attempt.png)
 
 ## 🔐 Security Insight
 
-This vulnerability exists due to improper handling of user input in Samba configuration, allowing command injection.
-
----
+This vulnerability exists due to improper handling of user input in the Samba username map script, allowing attackers to execute arbitrary commands on the target system and gain root access.
 
 ## 🧠 Skills Demonstrated
 
